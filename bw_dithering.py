@@ -7,5 +7,10 @@ import threading
 
 root = tk.Tk()
 root.title("B&W Dithering Editor")
+root.geometry("600x600")
+root.config(bg="black")
+root.resizable(True,True)
+
+
 
 root.mainloop()
