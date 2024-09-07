@@ -3,7 +3,6 @@ from tkinter import filedialog, messagebox
 from tkinter import ttk
 from PIL import Image, ImageTk
 import numpy as np
-<<<<<<< HEAD
 
 #function for selecting the image file path via a dialogue box
 def browse_file():
@@ -120,16 +119,3 @@ dithered_label = tk.Label(root)
 dithered_label.grid(row=6, column=0, columnspan=3)
 
 root.mainloop()
-=======
-import threading
-
-root = tk.Tk()
-root.title("B&W Dithering Editor")
-root.geometry("600x600")
-root.config(bg="black")
-root.resizable(True,True)
-
-
-
-root.mainloop()
->>>>>>> 5a6e5dee81c717d9afc2af7bf9a16f95fbba39c6
